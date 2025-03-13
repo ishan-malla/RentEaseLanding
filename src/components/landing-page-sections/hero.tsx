@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -32,7 +31,7 @@ export default function HeroSection() {
               transition={{ delay: 0.4 }}
             >
               Be a landlord of your own space or a tenant in someone
-              else's—flexibility in living arrangements at your fingertips.
+              else&apos;s—flexibility in living arrangements at your fingertips.
             </motion.p>
 
             <motion.div

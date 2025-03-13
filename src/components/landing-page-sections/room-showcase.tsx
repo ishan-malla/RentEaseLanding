@@ -87,7 +87,7 @@ export default function RoomShowcaseSection() {
         >
           {rooms.map((room) => (
             <motion.div
-              key={room.id}
+              key={room.id} // Use room.id as the key
               variants={{
                 hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 },

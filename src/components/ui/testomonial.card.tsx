@@ -33,7 +33,7 @@ export default function TestimonialCard({
               <Star key={i} className="h-4 w-4 fill-primary text-primary" />
             ))}
           </div>
-          <p className="mt-3">"{content}"</p>
+          <p className="mt-3">&quot;{content}&quot;</p>
         </div>
       </div>
     </div>

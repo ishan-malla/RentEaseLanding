@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { Key, Home } from "lucide-react";
 import FeatureCard from "../ui/feature-card";
@@ -42,8 +41,8 @@ export default function FeaturesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Whether you're looking to rent out your space or find a place to
-              stay, RentEase has you covered.
+              Whether you&apos;re looking to rent out your space or find a place
+              to stay, RentEase has you covered.
             </motion.p>
           </motion.div>
         </motion.div>

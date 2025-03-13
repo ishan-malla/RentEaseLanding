@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
 import { Shield } from "lucide-react";
@@ -39,7 +38,7 @@ export default function TrustAndSafetySection() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                We've built RentEase with security and trust at its core,
+                We&apos;ve built RentEase with security and trust at its core,
                 providing peace of mind for both landlords and tenants.
               </motion.p>
             </motion.div>
