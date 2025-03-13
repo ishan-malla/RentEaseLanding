@@ -85,7 +85,7 @@ export default function RoomShowcaseSection() {
             },
           }}
         >
-          {rooms.map((room, index) => (
+          {rooms.map((room) => (
             <motion.div
               key={room.id}
               variants={{

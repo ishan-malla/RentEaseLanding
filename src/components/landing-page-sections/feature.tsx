@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { Key, Home } from "lucide-react";
 import FeatureCard from "../ui/feature-card";
